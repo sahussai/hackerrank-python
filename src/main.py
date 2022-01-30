@@ -2,6 +2,7 @@ from leetcode_1512 import Solution as lc_1512
 from leetcode_771 import Solution as lc_771
 from leetcode_1365 import Solution as lc_1365
 from bubbleSort import BubbleSort
+from binarySearch import BinarySearch
 
 
 
@@ -25,5 +26,16 @@ from bubbleSort import BubbleSort
 # print(lc_1365.smallerNumbersThanCurrent(array,array))
 
 
-array = [12,334,44,5,6663,223,21]
-print(BubbleSort.sort(array,array))
+# array = [12,334,44,5,6663,223,21]
+# print(BubbleSort.sort(array,array))
+
+
+# array = [12,334,44,5,6663,223,21]
+
+# array.sort()
+
+array = [5, 12,21,44,223,334,6663]
+# print(BinarySearch.binarySearch(array,21))
+
+for i in array:
+    print(i.__str__() + " is in " + BinarySearch.binarySearch(array,i).__str__())
