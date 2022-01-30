@@ -26,16 +26,16 @@ from binarySearch import BinarySearch
 # print(lc_1365.smallerNumbersThanCurrent(array,array))
 
 
-# array = [12,334,44,5,6663,223,21]
-# print(BubbleSort.sort(array,array))
+array = [12,334,44,5,6663,223,21,3,23,44,123,55,22,23]
+print(BubbleSort.sort(array))
 
 
 # array = [12,334,44,5,6663,223,21]
 
 # array.sort()
 
-array = [5, 12,21,44,223,334,6663]
-# print(BinarySearch.binarySearch(array,21))
+# array = [5, 12,21,44,223,334,6663]
+# # print(BinarySearch.binarySearch(array,21))
 
-for i in array:
-    print(i.__str__() + " is in " + BinarySearch.binarySearch(array,i).__str__())
+# for i in array:
+#     print(i.__str__() + " is in " + BinarySearch.binarySearch(array,i).__str__())
