@@ -3,6 +3,7 @@ from leetcode_771 import Solution as lc_771
 from leetcode_1365 import Solution as lc_1365
 from bubbleSort import BubbleSort
 from binarySearch import BinarySearch
+from leetcode_1 import Solution as lc_1
 
 
 
@@ -26,8 +27,8 @@ from binarySearch import BinarySearch
 # print(lc_1365.smallerNumbersThanCurrent(array,array))
 
 
-array = [12,334,44,5,6663,223,21,3,23,44,123,55,22,23]
-print(BubbleSort.sort(array))
+# array = [12,334,44,5,6663,223,21,3,23,44,123,55,22,23]
+# print(BubbleSort.sort(array))
 
 
 # array = [12,334,44,5,6663,223,21]
@@ -39,3 +40,7 @@ print(BubbleSort.sort(array))
 
 # for i in array:
 #     print(i.__str__() + " is in " + BinarySearch.binarySearch(array,i).__str__())
+
+
+nums = [3,2,95,4,-3]
+print(lc_1.twoSum(nums, 92))
