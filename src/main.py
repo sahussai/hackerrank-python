@@ -4,6 +4,11 @@ from leetcode_1365 import Solution as lc_1365
 from bubbleSort import BubbleSort
 from binarySearch import BinarySearch
 from leetcode_1 import Solution as lc_1
+from leetcode_9 import Solution as lc_9
+
+''' Leetcode 9 Palindrome Number'''
+
+print(lc_9.isPalindrome(5553555))
 
 
 
@@ -42,5 +47,5 @@ from leetcode_1 import Solution as lc_1
 #     print(i.__str__() + " is in " + BinarySearch.binarySearch(array,i).__str__())
 
 
-nums = [3,2,95,4,-3]
-print(lc_1.twoSum(nums, 92))
+# nums = [3,2,95,4,-3]
+# print(lc_1.twoSum(nums, 92))
